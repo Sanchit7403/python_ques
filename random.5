@@ -1,0 +1,18 @@
+import random
+ 
+li = [1, 4, 5, 10, 2]
+ 
+print("The list before shuffling is : ", end="")
+for i in range(0, len(li)):
+    print(li[i], end=" ")
+print("\r")
+ 
+random.shuffle(li)
+ 
+print("The list after shuffling is : ", end="")
+for i in range(0, len(li)):
+    print(li[i], end=" ")
+print("\r")
+ 
+print("The random floating point number between 5 and 10 is : ", end="")
+print(random.uniform(5, 10))
